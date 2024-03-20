@@ -1,6 +1,4 @@
 <script>
-import bootstrap from 'bootstrap';
-
 export default {
   data(){
     return{
@@ -12,13 +10,23 @@ export default {
 </script>
 
 <template>
-  <div class=" d-flex justify-content-center align-items-center text-center ">
-    <h1 class=" text-center">{{ title }}</h1>
-    <span><i class="fa-solid fa-earth-europe"></i></span>
+  <div>
+    <h1 class="piango">{{ title }}</h1>
     <p>{{ paragraph }} </p>
   </div>
 </template>
 
 <style scoped>
-  
+  .piango{
+    color: red;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+
+  p{
+    text-align: center;
+    color: blue;
+    margin-top: 50px;
+  }
 </style>
